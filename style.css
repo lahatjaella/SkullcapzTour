@@ -1,0 +1,52 @@
+body {
+  background-color: black;
+  font-family: "Metal Mania", system-ui;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This centers the children elements horizontally */
+}
+
+#logo {
+  border-radius: 50%;
+  border: 6px solid lightgrey;
+  padding: 8px;
+  width: 110px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center; /* Center align the text */
+  width: 80%; /* Adjust width to ensure responsiveness */
+  max-width: 600px; /* Set a maximum width to prevent overly wide text on large screens */
+}
+
+.link {
+  color: red;
+}
+
+#tour-name {
+  color: red;
+}
+
+hr {
+  width: 50%;
+  margin: 0 auto;
+  border: 0.5px solid white;
+}
+
+#email {
+  width: 200px;
+}
+
+#raffle {
+  color: lightgrey;
+  font-size: 28px;
+}
+
+form {
+  font-size: 20px;
+}
